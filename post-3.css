@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url('https://drive.google.com/uc?export=view&id=1WQnVQi4wL4FtyrOboF_7_k8hh_u_aIbL');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.web-name{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 12pt;
+    background-color: white;
+}
+
+.navbar-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: white;
+    width: 80%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.picture{
+    widht: 450px;
+    height: 300px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    widht: 50%;
+}
+
+.link_web{
+    text-decoration: none; 
+    color: black;
+    font-weight: 800;
+ }
+ 
+
+.source{
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+}
+
+ol{
+    text-align: justify;
+}
+
+footer{
+    background-color: white;
+    padding: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10pt;
+}
+
+
+
+@media (max-width: 900px){
+    .picture{
+        widht: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px){
+    .picture{
+        widht: 250px;
+        height: 100px;
+    }
+    .source{
+        color: grey;
+        font-size: 8px;
+        text-align: center;
+    }
+}
